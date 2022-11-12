@@ -48,7 +48,7 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("home")}
               >
-                Home
+                Vinh
               </Nav.Link>
               <Nav.Link
                 href="#skills"

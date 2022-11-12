@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import soldier from "../assets/img/soldier.svg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -36,7 +36,7 @@ export const Contact = () => {
     setButtonText("Send");
     let result = await response.json();
     setFormDetails(formInitialDetails);
-    if (result.code === 200) {
+    if (result.code == 200) {
       setStatus({ success: true, message: "Message sent successfully" });
     } else {
       setStatus({
@@ -57,7 +57,7 @@ export const Contact = () => {
                   className={
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
-                  src={contactImg}
+                  src={soldier}
                   alt="Contact Us"
                 />
               )}

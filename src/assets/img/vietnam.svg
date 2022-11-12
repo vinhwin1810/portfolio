@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="640" version="1.1" viewBox="0 0 960.00004 640.00079" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="r">
+   <stop stop-opacity="0" offset="0"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <linearGradient id="q">
+   <stop stop-opacity="0" offset="0"/>
+   <stop stop-opacity="0" offset=".5"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <radialGradient id="v" cx="1070" cy="700" r="40" gradientTransform="matrix(-1 0 0 1 1830 -99.999)" gradientUnits="userSpaceOnUse" xlink:href="#q"/>
+  <linearGradient id="ad" x1="780" x2="800" y1="373.33" y2="373.33" gradientUnits="userSpaceOnUse" xlink:href="#r"/>
+  <linearGradient id="ae" x1="410" x2="410" y1="620" y2="640" gradientUnits="userSpaceOnUse" xlink:href="#r"/>
+  <radialGradient id="w" cx="1070" cy="700" r="40" gradientTransform="translate(-1030 -99.999)" gradientUnits="userSpaceOnUse" xlink:href="#q"/>
+  <linearGradient id="af" x1="780" x2="800" y1="373.33" y2="373.33" gradientTransform="translate(-800)" gradientUnits="userSpaceOnUse" xlink:href="#r"/>
+  <linearGradient id="t" x1="410" x2="410" y1="620" y2="640" gradientTransform="translate(0 -746.67)" gradientUnits="userSpaceOnUse" xlink:href="#r"/>
+  <radialGradient id="x" cx="1070" cy="700" r="40" gradientTransform="matrix(-1 0 0 -1 1830 846.67)" gradientUnits="userSpaceOnUse" xlink:href="#q"/>
+  <radialGradient id="y" cx="1070" cy="700" r="40" gradientTransform="matrix(1 0 0 -1 -1030 846.67)" gradientUnits="userSpaceOnUse" xlink:href="#q"/>
+  <linearGradient id="u" x1="2050" x2="2560" y1="-120" y2="-630" gradientTransform="matrix(1 0 0 1.0068 -1e3 4.2185)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <filter id="aa" color-interpolation-filters="sRGB">
+   <feGaussianBlur result="blur" stdDeviation="2 2"/>
+  </filter>
+  <clipPath id="z">
+   <rect transform="scale(1,-1)" y="-1336" width="2e3" height="1336" ry="100.2" fill="#d70000"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(80 -54.289)">
+  <rect transform="matrix(1 0 0 -1 1e3 .95523)" x="-1e3" y="-640" width="800" height="533.33" ry="40" filter="url(#aa)"/>
+  <g transform="matrix(.4 0 0 .3992 0 106.67)" clip-path="url(#z)">
+   <rect width="2e3" height="1336" fill="#da251d"/>
+   <g transform="matrix(66.907 0 0 66.907 1e3 706.33)" fill="#ff0">
+    <g id="s" transform="translate(0,-6)">
+     <polyline id="ab" transform="matrix(.95106 .30902 -.30902 .95106 0 0)" points="0 0 0 6 4 6" fill="#ff0"/>
+     <use transform="scale(-1,1)" width="744.09448" height="1052.3622" fill="#ffff00" xlink:href="#ab"/>
+    </g>
+    <g id="ac" transform="matrix(.30902 .95106 -.95106 .30902 0 0)">
+     <use width="744.09448" height="1052.3622" fill="#ffff00" xlink:href="#s"/>
+     <use transform="matrix(.30902 .95106 -.95106 .30902 0 0)" width="744.09448" height="1052.3622" fill="#ffff00" xlink:href="#s"/>
+    </g>
+    <use transform="scale(-1,1)" width="744.09448" height="1052.3622" fill="#ffff00" xlink:href="#ac"/>
+   </g>
+  </g>
+  <g transform="translate(-1e3)">
+   <g transform="translate(1e3)">
+    <path d="m800 600a40 40 0 0 1 -40 40v-20a20 20 0 0 0 20 -20h20z" fill="url(#v)" opacity=".603"/>
+    <rect x="780" y="146.67" width="20" height="453.33" ry="0" fill="url(#ad)" opacity=".603"/>
+    <rect x="40" y="620" width="720" height="20" fill="url(#ae)" opacity=".603"/>
+    <path d="m0 600a40 40 0 0 0 40 40v-20a20 20 0 0 1 -20 -20h-20z" fill="url(#w)" opacity=".603"/>
+    <rect transform="scale(-1,1)" x="-20" y="146.67" width="20" height="453.33" ry="0" fill="url(#af)" opacity=".603"/>
+    <rect transform="scale(1,-1)" x="40" y="-126.67" width="720" height="20" fill="url(#t)" opacity=".603"/>
+    <path d="m800 146.67a40 40 0 0 0 -40 -40v20a20 20 0 0 1 20 20h20z" fill="url(#x)" opacity=".603"/>
+    <path d="m0 146.67a40 40 0 0 1 40 -40v20a20 20 0 0 0 -20 20h-20z" fill="url(#y)" opacity=".603"/>
+   </g>
+   <rect transform="scale(1,-1)" x="1020" y="-620" width="760" height="493.33" ry="20" fill="url(#u)" opacity=".3"/>
+  </g>
+ </g>
+</svg>
