@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import pirate from "../assets/img/pirate.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import Love from "../assets/img/love.svg";
+import Love1 from "../assets/img/love1.svg";
+import Love2 from "../assets/img/love3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -48,7 +48,7 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("home")}
               >
-                Vinh
+                Hanh Quyen
               </Nav.Link>
               <Nav.Link
                 href="#skills"
@@ -57,7 +57,7 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("skills")}
               >
-                Skills
+                Features
               </Nav.Link>
               <Nav.Link
                 href="#projects"
@@ -68,26 +68,21 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("projects")}
               >
-                Projects
+                Gallery
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/vinh-pham-8ba02111b/">
-                  <img src={navIcon1} alt="" />
+                <a href="https://codemyui.com/wp-content/uploads/2017/08/I-Love-You.mp4">
+                  <img src={Love} alt="" />
                 </a>
-                <a href="https://www.facebook.com/vinhhhpham">
-                  <img src={navIcon2} alt="" />
+                <a href="https://media.tenor.com/kl_HHAGP2X8AAAAi/bunny-i-love-you.gif">
+                  <img src={Love1} alt="" />
                 </a>
-                <a href="https://www.instagram.com/ocd.vinh/">
-                  <img src={navIcon3} alt="" />
+                <a href="https://media.tenor.com/NEXkjuU30Z0AAAAd/snowball-bunny-carrot.gif">
+                  <img src={Love2} alt="" />
                 </a>
               </div>
-              <HashLink to="#connect">
-                <button className="vvd">
-                  <span>Let’s Connect</span>
-                </button>
-              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>

@@ -1,28 +1,68 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/1.png";
+import projImg2 from "../assets/img/2.png";
+import projImg3 from "../assets/img/3.png";
+import projImg4 from "../assets/img/4.png";
+import projImg5 from "../assets/img/5.png";
+import projImg6 from "../assets/img/6.png";
+import projImg7 from "../assets/img/7.png";
+import projImg8 from "../assets/img/8.png";
+import projImg9 from "../assets/img/9.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
-  const projects = [
+  const projects1 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Union College",
+      description: "Fuck you",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "CPH 706",
+      description: "Kiss",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Virtual",
+      description: "You draw",
       imgUrl: projImg3,
+    },
+  ];
+  const projects2 = [
+    {
+      title: "Buy Meat",
+      description: "Mad",
+      imgUrl: projImg4,
+    },
+    {
+      title: "No idea",
+      description: "Beo",
+      imgUrl: projImg5,
+    },
+    {
+      title: "Pretty",
+      description: "sexy",
+      imgUrl: projImg6,
+    },
+  ];
+  const projects3 = [
+    {
+      title: "Hai Phong",
+      description: "ilysm",
+      imgUrl: projImg7,
+    },
+    {
+      title: "Travezia",
+      description: "just fucked",
+      imgUrl: projImg8,
+    },
+    {
+      title: "Some Cafe shop",
+      description: "make up",
+      imgUrl: projImg9,
     },
   ];
 
@@ -38,14 +78,8 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Projects</h2>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
+                  <h2>Gallery</h2>
+                  <p>This is our photo Gallery</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -53,13 +87,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">Us</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">You</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">Us again</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -70,28 +104,24 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, index) => {
+                          {projects1.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                        <Row>
+                          {projects2.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                        <Row>
+                          {projects3.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

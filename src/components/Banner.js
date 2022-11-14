@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import vietnam from "../assets/img/vietnam.svg";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import love2 from "../assets/img/love2.svg";
+import { ArrowThroughHeart } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Software Engineer", "UI/UX Designer"];
+  const toRotate = ["I Love You", "I Miss Your Pussy"];
   const period = 2000;
 
   useEffect(() => {
@@ -63,9 +63,9 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Welcome to my Portfolio</span>
+                  <span className="tagline">Welcome to Me</span>
                   <h1>
-                    {`Hi! I'm Vinh`}{" "}
+                    {`Hanh Quyen`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
@@ -75,11 +75,11 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Piano Player, Chess Professional Player, a Computer Gamer
-                    and dog lover.
+                    You are the most amazing girl I have ever met. But you need
+                    to work on your texting more lol.
                   </p>
                   <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                    But I love you anyway <ArrowThroughHeart size={25} />
                   </button>
                 </div>
               )}
@@ -93,7 +93,7 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img src={vietnam} alt="Header Img" />
+                  <img src={love2} alt="Header Img" />
                 </div>
               )}
             </TrackVisibility>
