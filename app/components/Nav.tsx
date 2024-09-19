@@ -1,5 +1,5 @@
-// app/components/Navbar.tsx
-import Link from "next/link";
+// app/components/Nav.tsx
+import Link from "next/link"; //<a> causes the page to fully reload HTML, CSS and JS while nextlink doesn't.
 
 const Nav = () => {
   return (
